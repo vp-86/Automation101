@@ -5,9 +5,12 @@ import java.util.Arrays;
 public class A04_Array {
 
 
-    // position
+    // index
     // storing multiple element
-    // assign value
+    // assign value two way
+    // size , last element, accessElement
+    // method ref
+    // return from method
 
 
     // assing value directly

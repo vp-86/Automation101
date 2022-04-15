@@ -39,6 +39,29 @@ public class A2_DriverInstance {
      */
 
     /*
+         Chrome :
+         - ChromeOptions options = new ChromeOptions();
+         - options.addArguments("window-size=1400,800")
+         - options.addArguments("headless")
+
+         Firefox
+         -System.setpropery("webdriver.gecko.driver","path");
+          FirefoxOptions fo = new FirefoxOptions();
+          fo.setBinary(new FirefoxBinary().addCommandLineOptions("--headless"));
+          WebDriver driver = new FirefoxDriver(fo);
+
+         htmlUnitDriver      -- java based
+         - add Pom dependency
+         - WebDriver driver = new HtmlUnitDriver();
+
+         phantom JS : ( Ghost Driver ) -javascript based
+         - latest version we have to download only phantomjs.exe
+         - add driver dependency in POM
+
+
+         - fast, run behind scene, interact directly with DOM API
+         - ghost driver use JSON wire protocol -- HTTP rest calls
+              - sytem.setProperty("phantomjs.binary.path",FilePath)
 
 
      */

@@ -31,7 +31,7 @@ public class A08_String {
          .
 
         5. contains
-        6. equalsTo , equalsIgnoreCase
+        6. equals , equalsIgnoreCase
          . startsWith
          . endsWith
 
@@ -51,6 +51,8 @@ public class A08_String {
        12. reverse
 
        ToDO: reverse string diff way
+       ToDO: split string having space / .
+
   */
 
     public static void main(String[] args) {

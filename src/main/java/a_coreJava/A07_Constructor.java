@@ -1,6 +1,18 @@
 package a_coreJava;
 
 public class A07_Constructor {
+    // purpose ( encapsulation )
+    // default
+    // parameterized
+
+/*
+    Constructor: --- why we need
+   * default constructor >> as to encapsulation - not want to expose behavior of class
+	                        -- Private member being initialized
+   * Parameter constructor >> to force user to initialize required variable
+*/
+
+
 
     public class test{
 

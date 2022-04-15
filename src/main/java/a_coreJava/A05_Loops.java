@@ -3,6 +3,11 @@ package a_coreJava;
 public class A05_Loops {
 
     public static void main(String[] args) {
+        // for each
+        // for enhanced
+        // do while
+        // while
+
 
         //for loop
         for(int i=0; i< 5;  i++){
