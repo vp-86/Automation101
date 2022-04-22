@@ -9,4 +9,7 @@ public class A06_ClassesObj {
     // CONSTANT
 
 
+    // class vs instance
+    // local vs global
+
 }
