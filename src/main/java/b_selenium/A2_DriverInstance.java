@@ -1,6 +1,18 @@
 package b_selenium;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.config.DriverManagerType;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class A2_DriverInstance {
+
+    static WebDriver driver;
+
+    public  A2_DriverInstance(){
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+    }
 
     /*
      GeckoDriver

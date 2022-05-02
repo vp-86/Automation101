@@ -2,7 +2,13 @@ package b_selenium;
 
 public class A4_Locator {
 
- /*   TAG ClassName ID NAME LinkT PartialLinkT CSS XPATH
+ /*
+   8 diff types:
+
+   ID NAME
+   LinkText PartialLinkT
+   TAG ClassName
+   CSS XPATH
 
     Preferred Way: ID/name ( as they are unique )
 	ID/Name not helpful if auto generated or dynamic generated ID , alternative is to use XPATH or CSS Selector
@@ -14,7 +20,6 @@ public class A4_Locator {
 
     Xpath as powerfull tool
 	  - to traverse backward, perform contains ops , textvalue
-
 
     combine CSS    textarea#menuItem1[placeholder='currentAddress']
     parent child   div > input[value=123]
@@ -41,7 +46,7 @@ public class A4_Locator {
         Relative Xpath :  Select Element from Current Node ( //)
         Xpath Axes: < Regular No ...not zero based index >
 
-        NAL : chap 16/17 ( referrence )
+       **  NAL : chap 16/17 ( referrence )
 
         x-path axes :
             //div[@name='test']//following::a
@@ -57,8 +62,6 @@ public class A4_Locator {
         -findElement(new ByAll(By.id(),By.name(),By.xPath());
         -findElement(new ByIDorName("Submit");
         -findElement(new ByChained(By.id(parent1),By.name(child1),By.xPath(subchild1)));
-
-
 */
 
 }
