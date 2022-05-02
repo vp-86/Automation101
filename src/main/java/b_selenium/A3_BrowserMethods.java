@@ -30,12 +30,17 @@ public class A3_BrowserMethods {
         //driver.quit(); - close all window from same session
 
         // navigation command
+        driver = new ChromeDriver();
+        driver.get("https://www.yahoo.com");
+        driver.get("https://www.google.com");
         driver.navigate().refresh();
         driver.navigate().back();
         driver.navigate().forward();
         driver.navigate().to("https://www.amazon.com");
+        driver.quit();
 
         // webElement command
+        
         By username = By.id("test");
         driver.get("www.gmail.com");
         // driver.findElement( By.id("test") ).click();

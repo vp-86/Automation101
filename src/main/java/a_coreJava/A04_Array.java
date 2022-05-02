@@ -63,4 +63,19 @@ public class A04_Array {
         return arrInt ;
     }
 
+
+    /*
+      Array :
+         - Same data type
+         - contiguous memory allocation occurs during compile time
+         - fixed in size
+         - Fetch/Search ops fast
+         - length variable
+
+      List  :
+         -  Diff data type
+         -  scattered memory allocation occurs during run time
+         -  dynamic in size
+         -  Insertion Deletion operation faster
+     */
 }
