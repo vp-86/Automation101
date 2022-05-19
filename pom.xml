@@ -63,30 +63,11 @@
             <version>7.0.0</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>gherkin</artifactId>-->
-<!--            <version>23.0.1</version>-->
-<!--        </dependency>-->
-
-<!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>cucumber-junit</artifactId>-->
-<!--            <version>7.0.0</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-gherkin</artifactId>
             <version>6.9.1</version>
         </dependency>
-
-
-<!--        <dependency>-->
-<!--            <groupId>io.cucumber</groupId>-->
-<!--            <artifactId>gherkin</artifactId>-->
-<!--            <version>15.0.2</version>-->
-<!--        </dependency>-->
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-jvm -->
         <dependency>
@@ -109,6 +90,13 @@
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>5.0.8</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.2</version>
         </dependency>
 
 

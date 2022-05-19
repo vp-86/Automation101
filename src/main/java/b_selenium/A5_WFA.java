@@ -17,7 +17,6 @@ public class A5_WFA extends A2_DriverInstance {
         alert.accept();
         alert.dismiss();
         alert.getText();
-
         alert.sendKeys("data");
 
 

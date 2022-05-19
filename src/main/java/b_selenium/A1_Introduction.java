@@ -2,6 +2,16 @@ package b_selenium;
 
 public class A1_Introduction {
 
+
+
+    public static void main(String[] args) {
+    // private not found
+    TC03.I_am_protected="";
+    TC03.I_am_default = "";
+    TC03.I_am_public = "";
+
+    }
+
     /*
       What is selenium
       Component of selenium ( Sel1 , Sel2 , Sel 3
